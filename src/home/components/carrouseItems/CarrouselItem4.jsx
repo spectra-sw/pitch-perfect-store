@@ -23,7 +23,7 @@ export const CarrouselItem4 = () => {
               className="w-[76%] h-[92%] top-[4%] left-[12%] absolute z-20 rounded-2xl"
             />
           </div>
-          <img src={img3} className="w-[60%]" />
+          <img src={img3} className="w-[70%] max-h-72" />
         </div>
       </div>
       <div className="w-1/3 h-full flex flex-col justify-center relative">

@@ -8,7 +8,7 @@ export const Navbar = () => {
   return (
     <nav className="bg-neutral-800 h-16 flex items-center justify-center">
       <div className="flex flex-wrap items-center justify-center mx-auto px-12 w-full">
-        <a href="https://flowbite.com/" className="flex items-center">
+        <a href="#" className="flex items-center">
           <img
             src={logo}
             className="h-10 mr-3"
