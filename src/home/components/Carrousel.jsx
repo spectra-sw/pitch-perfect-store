@@ -8,7 +8,7 @@ export const Carrousel = () => {
     useCarrousel();
 
   return (
-    <div className="relative px-24">
+    <div className="relative lg:px-24">
       <div className="flex h-[calc(90vh-4rem)] relative rounded-xl overflow-hidden">
         <motion.div
           className="absolute flex h-full"

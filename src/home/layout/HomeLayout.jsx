@@ -14,7 +14,7 @@ export const HomeLayout = ({ children }) => {
       {/* children */}
       <div className="flex justify-center items-center flex-col">
         <motion.main
-          className="bg-neutral-700 h-[calc(100vh-4rem)] px-12 flex flex-col justify-center w-full"
+          className="bg-neutral-700 h-[calc(100vh-4rem)] px-4 flex flex-col justify-center w-full"
           animate={{ y: 0, opacity: 1, scale: 1 }}
           initial={{ y: "100vh", opacity: 0.2, scale: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}

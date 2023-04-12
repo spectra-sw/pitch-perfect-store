@@ -6,7 +6,7 @@ export const ButtonsCarousel = ({ handleNext, handlePrev }) => {
         className="absolute top-0 left-0 z-30 flex items-center justify-center h-full cursor-pointer group focus:outline-none"
         onClick={handlePrev}
       >
-        <span className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-neutral-800 group-hover:bg-neutral-900 group-focus:ring-4 group-focus:ring-neutral-600 group-focus:outline-none transition-all duration-300">
+        <span className="inline-flex items-center justify-center w-12 h-12 rounded-full lg:bg-neutral-800 lg:group-hover:bg-neutral-900 lg:group-focus:ring-4 lg:group-focus:ring-neutral-600 group-focus:outline-none transition-all duration-300">
           <svg
             aria-hidden="true"
             className="w-11 h-11 text-white"
@@ -30,7 +30,7 @@ export const ButtonsCarousel = ({ handleNext, handlePrev }) => {
         className="absolute top-0 right-0 z-30 flex items-center justify-center h-full cursor-pointer group focus:outline-none"
         onClick={handleNext}
       >
-        <span className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-neutral-800 group-hover:bg-neutral-900 group-focus:ring-4 group-focus:ring-neutral-600 group-focus:outline-none transition-all duration-300">
+        <span className="inline-flex items-center justify-center w-12 h-12 rounded-full lg:bg-neutral-800 lg:group-hover:bg-neutral-900 lg:group-focus:ring-4 lg:group-focus:ring-neutral-600 group-focus:outline-none transition-all duration-300">
           <svg
             aria-hidden="true"
             className="w-11 h-11 text-white"
