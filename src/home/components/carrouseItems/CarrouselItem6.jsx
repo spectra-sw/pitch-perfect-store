@@ -10,8 +10,10 @@ export const CarrouselItem6 = () => {
       className={`bg-[url(/src/assets/bg-image/bg-3.jpg)] bg-no-repeat bg-cover bg-opacity-10 bg-center flex justify-center flex-wrap w-full h-full`}
     >
       <div className="w-full md:w-1/2 flex flex-col justify-center items-center text-white font-bold relative">
-        <h3 className="text-4xl mb-3">Gracias</h3>
-        <h2 className="text-6xl">Perfect Store</h2>
+        <div className="border-4 border-white rounded-xl p-2">
+          <h3 className="text-4xl mb-3" style={{textShadow: "3px 4px 4px rgba(0, 0, 0, 1)"}}>Gracias</h3>
+          <h2 className="text-6xl" style={{textShadow: "3px 4px 4px rgba(0, 0, 0, 1)"}}>Perfect Store</h2>
+        </div>
         <img
           src={hibu}
           className="w-1/3] absolute bottom-4 left-16"
