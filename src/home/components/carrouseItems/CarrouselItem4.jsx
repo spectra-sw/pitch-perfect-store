@@ -7,7 +7,7 @@ import img5 from "../../../assets/img/img5.png";
 export const CarrouselItem4 = () => {
   return (
     <div className="w-full h-full bg-neutral-800 flex flex-wrap overflow-hidden">
-      <div className="w-2/3 h-full flex flex-col items-center relative px-20">
+      <div className="w-2/3 h-full flex flex-col items-center relative px-12">
         <div className="w-full absolute bottom-4 left-0 flex flex-col items-center">
           <img src={logoHibu} className="w-[24%]" />
         </div>
@@ -16,7 +16,7 @@ export const CarrouselItem4 = () => {
           Solución
         </h2>
         <div className="flex flex-wrap justify-between w-full mt-8">
-          <div className="w-[24%] relative">
+          <div className="w-[28%] relative">
             <img src={img4} className="w-full max-h-72" />
             <img
               src={img5}

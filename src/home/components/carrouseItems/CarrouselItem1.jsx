@@ -8,19 +8,19 @@ export const CarrouselItem1 = () => {
     <div
       className={`bg-[url(/src/assets/bg-image/bg-1.png)] bg-no-repeat bg-cover flex justify-center flex-wrap w-full h-full`}
     >
-      <div className="w-full md:w-1/2 flex flex-col justify-center items-center text-white font-bold">
-        <h3 className="text-4xl mb-3">Presentación</h3>
-        <h2 className="text-6xl">Perfect Store</h2>
+      <div className="w-full md:w-2/3 flex flex-col justify-center items-center text-white font-bold">
+        <h3 className="text-4xl mb-3" style={{textShadow: "3px 4px 4px rgba(0, 0, 0, 1)"}}>Presentación</h3>
+        <h2 className="text-6xl" style={{textShadow: "3px 4px 4px rgba(0, 0, 0, 1)"}}>Perfect Store</h2>
       </div>
-      <div className="w-full md:w-1/2 relative">
+      <div className="w-full md:w-1/3 relative">
         <img
           src={hibu}
-          className="w-1/3] absolute top-8 right-16"
+          className="w-1/2 absolute top-8 right-[calc(2rem+10%)]"
           alt="..."
         />
         <img
           src={spectra}
-          className="w-[40%] absolute bottom-8 right-8"
+          className="w-2/3 absolute bottom-8 right-8"
           alt="..."
         />
       </div>
